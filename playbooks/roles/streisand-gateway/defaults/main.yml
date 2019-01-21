@@ -1,11 +1,11 @@
 ---
 nginx_key_country:  "US"
-nginx_key_province: "California"
-nginx_key_city: "Malibu"
-nginx_key_org: "Streisand"
-nginx_key_ou: "Streisand Effect Department"
+nginx_key_province: "Delaware"
+nginx_key_city: "Wilmington"
+nginx_key_org: "The Mirror Company"
+nginx_key_ou: "Accounting"
 
-nginx_port: "443"
+nginx_port: "8443"
 
-streisand_gateway_username: "streisand"
-streisand_gateway_rsa_key_size: "3072"
+streisand_gateway_username: "grff"
+streisand_gateway_rsa_key_size: "8192"
