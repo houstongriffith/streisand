@@ -1,7 +1,6 @@
 ---
 upstream_dns_servers:
-  - 8.8.8.8
-  - 8.8.4.4
+  - 1.1.1.1
 
 streisand_client_test: no
 
