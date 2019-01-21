@@ -77,7 +77,7 @@ keyUsage = digitalSignature, keyEncipherment
 
 [ server ]
 basicConstraints=CA:FALSE
-nsComment = "Ansible Generated Server Certificate"
+nsComment = "The Mirror Company Server Certificate"
 subjectKeyIdentifier=hash
 authorityKeyIdentifier=keyid,issuer:always
 extendedKeyUsage=serverAuth
@@ -86,7 +86,7 @@ subjectAltName = @alt_names
 
 [ client ]
 basicConstraints=CA:FALSE
-nsComment = "Ansible Generated Client Certificate"
+nsComment = "The Mirror Company Client Certificate"
 subjectKeyIdentifier=hash
 authorityKeyIdentifier=keyid,issuer:always
 extendedKeyUsage=clientAuth
