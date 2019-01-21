@@ -14,4 +14,4 @@ localhost ansible_connection=local ansible_python_interpreter=/usr/bin/python
 # If you need to override the name of the server (e.g. because the system
 # hostname is not the desired server name for documentation/etc) then add a host
 # var named "streisand_server_name" with the desired value.
-localhost ansible_connection=local streisand_noninteractive=true
+localhost ansible_connection=local streisand_noninteractive=true streisand_server_name=grff-connect
